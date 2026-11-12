@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Comtrack Funeral Cover</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 4l24 8v20c0 14-10 24-24 29C18 56 8 46 8 32V12z' fill='%230c1418' stroke='%23c9ad77' stroke-width='3'/%3E%3Cpath d='M32 16c-5 8-5 16 0 22 5-6 5-14 0-22zM32 38c-8-2-14-8-16-16 8 0 14 6 16 16zM32 38c8-2 14-8 16-16-8 0-14 6-16 16z' fill='%23e2cb9b'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+                        <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3e3b8"/><stop offset="1" stop-color="#a98c55"/></linearGradient>
+                        <radialGradient id="lbg" cx=".5" cy=".3" r=".85"><stop offset="0" stop-color="#1d3039"/><stop offset="1" stop-color="#0a1115"/></radialGradient>
+                    </defs><symbol id="logo-sym" viewBox="0 0 64 64">
+                    <path d="M32 3 57 11.5V32c0 14.5-10.5 25-25 30C17.5 57 7 46.5 7 32V11.5Z" fill="url(#lbg)" stroke="url(#lg)" stroke-width="2.2"/>
+                    <path d="M32 8.5 52 15v17c0 11.8-8.4 20.6-20 25-11.6-4.4-20-13.2-20-25V15Z" fill="none" stroke="url(#lg)" stroke-width=".8" opacity=".7"/>
+                    <g fill="none" stroke="url(#lg)" stroke-width="1.2" stroke-linecap="round" opacity=".85"><path d="M17 41c-2.4-7-1.4-14.5 3-20"/><path d="M47 41c2.4-7 1.4-14.5-3-20"/></g>
+                    <g fill="url(#lg)" opacity=".85">
+                        <ellipse cx="16.4" cy="36" rx="2.7" ry="1.1" transform="rotate(-70 16.4 36)"/><ellipse cx="16.6" cy="30" rx="2.7" ry="1.1" transform="rotate(-80 16.6 30)"/><ellipse cx="18.4" cy="24.5" rx="2.7" ry="1.1" transform="rotate(-60 18.4 24.5)"/>
+                        <ellipse cx="47.6" cy="36" rx="2.7" ry="1.1" transform="rotate(70 47.6 36)"/><ellipse cx="47.4" cy="30" rx="2.7" ry="1.1" transform="rotate(80 47.4 30)"/><ellipse cx="45.6" cy="24.5" rx="2.7" ry="1.1" transform="rotate(60 45.6 24.5)"/>
+                    </g>
+                    <path d="M32 10.4l1 2.3 2.3 1-2.3 1-1 2.3-1-2.3-2.3-1 2.3-1Z" fill="url(#lg)"/>
+                    <path d="M32 18C27.5 25 27.5 32 32 38 36.5 32 36.5 25 32 18Z" fill="url(#lg)"/>
+                    <path d="M32 38C24.5 36.5 19 31.5 17 24 24 24 30 29 32 38Z" fill="url(#lg)"/>
+                    <path d="M32 38C39.5 36.5 45 31.5 47 24 40 24 34 29 32 38Z" fill="url(#lg)"/>
+                    <path d="M32 21v15" stroke="#0a1115" stroke-width=".6" opacity=".35"/>
+                    <path d="M32 38V53" stroke="url(#lg)" stroke-width="1.6" stroke-linecap="round"/>
+                    <path d="M32 48C27 48 23.5 45.5 22.5 42 27.5 42 31 44 32 48ZM32 48C37 48 40.5 45.5 41.5 42 36.5 42 33 44 32 48Z" fill="url(#lg)"/>
+                    <g stroke="#f3e3b8" stroke-width=".8" stroke-linecap="round"><path d="M32 38 28.5 28.5M32 38 35.5 28.5"/></g>
+                    <circle cx="28.4" cy="28.2" r="1" fill="#f3e3b8"/><circle cx="35.6" cy="28.2" r="1" fill="#f3e3b8"/>
+                </symbol></svg>
+    <header>
+        <nav>
+            <a class="brand" href="#top" aria-label="Comtrack Funeral Cover, back to top">
+                <svg class="logo-mark" viewBox="0 0 64 64" width="46" height="46" aria-hidden="true"><use href="#logo-sym"/></svg>
+                <span class="logo"><b>Comtrack</b><small>Funeral Cover</small></span>
+            </a>
+            <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+            <div class="menu" id="menu">
+                <a href="#about"><ion-icon name="information-circle-outline"></ion-icon><span>About</span></a>
+                <a href="#services"><ion-icon name="apps-outline"></ion-icon><span>Services</span></a>
+                <a href="#plans"><ion-icon name="pricetags-outline"></ion-icon><span>Plans</span></a>
+                <a href="#orders"><ion-icon name="cart-outline"></ion-icon><span>My orders</span> <b class="count" id="cartcount" hidden>0</b></a>
+                <a href="#faq"><ion-icon name="help-circle-outline"></ion-icon><span>FAQ</span></a>
+                <a href="#contact"><ion-icon name="chatbubbles-outline"></ion-icon><span>Contact</span></a>
+                <span class="auth" id="authbar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="slides" id="slides">
+            <div class="slide on" style="background-image:url('images/main_img.jpg')"></div>
+            <div class="slide" style="background-image:url('images/main_support.jpg')"></div>
+            <div class="slide" style="background-image:url('images/main_support_2.jpg')"></div>
+        </div>
+        <div class="in">
+            <h1>Call us at any hour.<br>We will take care of the rest.</h1>
+            <p class="lead">Comtrack Funeral Cover plans and arranges the whole funeral, so your family can focus on each other.</p>
+            <div class="row">
+                <a class="btn tel" href="#contact">Call us now</a>
+                <a class="btn ghost" href="#plans">View funeral plans</a>
+            </div>
+            <p class="note">Our 24-hour line is answered every day of the year.</p>
+        </div>
+        <div class="hdots" id="hdots"></div>
+    </div>
+
+    <section id="about">
+        <h2 class="abt">About Comtrack</h2>
+        <div class="about">
+            <div class="photo" style="background-image:url('images/main_about_1.jpg')" role="img" aria-label="A white lily"></div>
+            <div>
+                <h3 class="lede">Twenty years beside families</h3>
+                <p class="sub">
+                    Comtrack has partnered with Sena Financial Services, RMA Life and Gen-Life to offer funeral and grocery cover from a low monthly fee*.
+                    The grocery plan includes the main member, spouse and six children under the age of 21.
+                </p>
+                <div class="value">
+                    <h3>Compassion</h3>
+                    <p>Comtrack lifts the weight of funeral arrangements. As a member, you receive a dignified funeral service and groceries delivered to your door.</p>
+                </div>
+                <div class="value">
+                    <h3>Dignity</h3>
+                    <p>Every family receives the same respect, care and attention to detail. The value of the funeral and grocery cover depends on the premium and the age of the deceased.</p>
+                </div>
+                <div class="value">
+                    <h3>Transparency</h3>
+                    <p>For members over 14, groceries cater for 250 people. For members under 14, groceries cater for 100 people or fewer, depending on the plan type**.</p>
+                </div>
+                <p class="fine">* Terms and conditions apply. ** Benefit levels depend on the plan chosen.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="sec-head">
+            <div>
+                <h2>What we arrange</h2>
+                <p class="sub">Everything your family needs, planned in one place.</p>
+            </div>
+            <!-- BROCHURE: put the path to your file in the href below, for example "brochure/Comtrack-Brochure.pdf" -->
+            <a class="brochure" href="comtrack brochure.pdf" download="Comtrack-Funeral-Cover-Brochure.pdf">
+                <ion-icon name="document-text-outline"></ion-icon>
+                <span><small>Download</small><strong>Our brochure</strong></span>
+                <ion-icon name="download-outline" class="dl"></ion-icon>
+            </a>
+        </div>
+        <div class="list">
+            <div class="item"><ion-icon name="flower-outline"></ion-icon><h3>Funeral and burial</h3><p>The service, venue, programme and graveside arrangements.</p></div>
+            <div class="item"><ion-icon name="flame-outline"></ion-icon><h3>Cremation</h3><p>Respectful cremation with memorial options and keepsake urns.</p></div>
+            <div class="item"><ion-icon name="car-outline"></ion-icon><h3>Transport and repatriation</h3><p>Hearse and family vehicles, with transfers within South Africa and abroad.</p></div>
+            <div class="item"><ion-icon name="restaurant-outline"></ion-icon><h3>Catering and marquees</h3><p>Tents, chairs, sound and catering for the gathering after the service.</p></div>
+            <div class="item"><ion-icon name="ribbon-outline"></ion-icon><h3>Tombstones and memorials</h3><p>Headstones, plaques and unveiling arrangements.</p></div>
+            <div class="item"><ion-icon name="heart-outline"></ion-icon><h3>Grief support</h3><p>Referrals to counsellors and bereavement support groups.</p></div>
+        </div>
+    </section>
+
+    <section id="plans">
+        <h2 id="plans-title">Funeral plans</h2>
+        <p class="sub" id="plans-sub">Read about each plan, then add it to your order. Log in when you are ready to place it.</p>
+        <div class="market" role="tablist" aria-label="Choose between funeral plans and grocery plans">
+            <button type="button" role="tab" class="mk on" id="tab-funeral" aria-selected="true" onclick="setMarket('funeral')"><ion-icon name="flower-outline"></ion-icon><span>Funeral plans</span></button>
+            <button type="button" role="tab" class="mk" id="tab-grocery" aria-selected="false" onclick="setMarket('grocery')"><ion-icon name="basket-outline"></ion-icon><span>Grocery plans</span></button>
+        </div>
+        <div class="gbar" id="gbar" hidden>
+            <div class="chips">
+                <span><ion-icon name="people-outline"></ion-icon>Up to 16 family members on one plan</span>
+                <span><ion-icon name="calendar-outline"></ion-icon>We cover individuals up to 84 years old</span>
+                <span><ion-icon name="shield-checkmark-outline"></ion-icon>Funeral cover from R10 000 to R40 000</span>
+            </div>
+            <div class="gsel2">
+                <div><label for="pb_cover">Who is covered</label><select id="pb_cover"></select></div>
+                <div><label for="pb_age">Age of main member</label><select id="pb_age"></select></div>
+            </div>
+        </div>
+        <div class="carousel" id="planbox">
+            <button class="arrow ghost" aria-label="Previous plan" onclick="slidePlans(-1)"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <div class="vp" id="planvp"><div class="track" id="plangrid"></div></div>
+            <button class="arrow ghost" aria-label="Next plan" onclick="slidePlans(1)"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button>
+        </div>
+        <div class="dots" id="plandots"></div>
+        <div class="gnote" id="gnote" hidden>
+            <ion-icon name="information-circle-outline"></ion-icon>
+            <p><b>Waiting periods.</b> A six (6) month waiting period applies for natural death and twelve (12) months for suicide death. There is no waiting period for accidental death, provided the first premium is paid to us.</p>
+        </div>
+    </section>
+
+    <section id="orders">
+        <h2>My orders</h2>
+        <p class="sub">Build your funeral order and your grocery order. Whatever you have selected on both pages is sent together in one order, and confirmed by email.</p>
+        <div class="saved" id="savedbox"></div>
+        <div class="market" role="tablist" aria-label="Choose funeral orders or grocery orders">
+            <button type="button" role="tab" class="mk on" id="otab-funeral" aria-selected="true" onclick="setOrderMarket('funeral')"><ion-icon name="flower-outline"></ion-icon><span>Funeral orders</span><b class="tabcount" id="oc-funeral" hidden></b></button>
+            <button type="button" role="tab" class="mk" id="otab-grocery" aria-selected="false" onclick="setOrderMarket('grocery')"><ion-icon name="basket-outline"></ion-icon><span>Grocery orders</span><b class="tabcount" id="oc-grocery" hidden></b></button>
+        </div>
+        <div class="fadebox" id="opanels">
+            <div id="opanel-funeral">
+                <div class="card">
+                    <h3 class="cardtitle"><ion-icon name="flower-outline"></ion-icon>My funeral order</h3>
+                    <div class="picker">
+                        <label for="pick" class="sr">Choose an item</label>
+                        <select id="pick"></select>
+                        <button onclick="addItem($('pick').value)">Add item</button>
+                    </div>
+                    <div id="cartbox"></div>
+                    <div class="checkout">
+                        <label for="op">Phone number</label>
+                        <input id="op" type="tel" autocomplete="tel" placeholder="e.g. 074 123 4567">
+                        <label for="on">Notes for our team (optional)</label>
+                        <textarea id="on" rows="2"></textarea>
+                        <p class="osum" id="osum"></p>
+                        <div class="msg" id="omsg" role="status"></div>
+                        <button onclick="placeOrder()">Place order</button>
+                    </div>
+                </div>
+                <h3 class="subhead">Your past orders</h3>
+                <div id="ordersbox" class="card"></div>
+            </div>
+            <div id="opanel-grocery" hidden>
+                <div class="card gcard">
+                    <h3 class="cardtitle"><ion-icon name="basket-outline"></ion-icon>My grocery order</h3>
+                    <div class="gpicker">
+                        <div><label for="gpick">Grocery plan</label><select id="gpick"></select></div>
+                        <div><label for="gcover">Who is covered</label><select id="gcover"></select></div>
+                        <div><label for="gage">Age of main member</label><select id="gage"></select></div>
+                        <button onclick="gAddFromPicker()">Add item</button>
+                    </div>
+                    <div id="gcartbox"></div>
+                    <div class="checkout">
+                        <label for="gop">Phone number</label>
+                        <input id="gop" type="tel" autocomplete="tel" placeholder="e.g. 074 123 4567">
+                        <label for="gon">Notes for our team (optional)</label>
+                        <textarea id="gon" rows="2"></textarea>
+                        <p class="osum" id="gosum"></p>
+                        <div class="msg" id="gomsg" role="status"></div>
+                        <button onclick="placeGrocery()">Place order</button>
+                    </div>
+                </div>
+                <h3 class="subhead">Your past groceries</h3>
+                <div id="gordersbox" class="card"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently asked questions</h2>
+        <div class="faq">
+            <details><summary>Who is covered?</summary><p>The grocery plan includes the main member, spouse and up to six children under the age of 21.</p></details>
+            <details><summary>Who stands behind the cover?</summary><p>Comtrack has partnered with Sena Financial Services, RMA Life and Gen-Life.</p></details>
+            <details><summary>What do I do when someone passes away?</summary><p>Call our 24-hour line. We answer every day of the year and will guide you through each step.</p></details>
+            <details><summary>How are groceries provided?</summary><p>Groceries are delivered to your door. Benefits for members over 14 cater for 250 people. Benefits for members under 14 cater for 100 people or fewer, depending on the plan.</p></details>
+            <details><summary>How does ordering work?</summary><p>Add plans and extras to your order, then place it. We email you a receipt and call you to confirm the details and payment.</p></details>
+            <details><summary>Can I change my plan later?</summary><p>Yes. Contact us by phone, email or WhatsApp and we will help you move to a plan that suits your family.</p></details>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact us</h2>
+        <p class="sub">Write your message and send it by email or WhatsApp. For urgent help, call our 24-hour line.</p>
+        <div class="contact-grid">
+            <div class="card form">
+                <div class="f2">
+                    <div><label for="cn">Your name</label><input id="cn" autocomplete="name"></div>
+                    <div><label for="ce">Your email</label><input id="ce" type="email" autocomplete="email"></div>
+                </div>
+                <div class="f2">
+                    <div><label for="cp">Phone number</label><input id="cp" type="tel" autocomplete="tel" placeholder="e.g. 074 123 4567"></div>
+                    <div><label for="ci">Plan you are interested in</label><select id="ci"></select></div>
+                </div>
+                <label for="cm">How can we help?</label>
+                <textarea id="cm" rows="4"></textarea>
+                <div class="msg" id="cmsg" role="alert"></div>
+                <div class="row">
+                    <button onclick="sendEnq('save')">Send enquiry</button>
+                    <button class="ghost" onclick="sendEnq('email')">Send by email</button>
+                    <button class="ghost" onclick="sendEnq('wa')">Send by WhatsApp</button>
+                    <a class="btn ghost tel">Call us now</a>
+                </div>
+            </div>
+            <div class="info">
+                <a class="info-card" href="https://www.google.com/maps/search/?api=1&query=57+Lake+Avenue+Benoni" target="_blank" rel="noopener">
+                    <span class="ic"><ion-icon name="location-outline"></ion-icon></span>
+                    <span><small>Visit us</small><strong>57 Lake Avenue, Benoni</strong></span>
+                </a>
+                <a class="info-card" href="mailto:monk@funeralgrocery.co.za">
+                    <span class="ic"><ion-icon name="mail-outline"></ion-icon></span>
+                    <span><small>Email us</small><strong>monk@funeralgrocery.co.za</strong></span>
+                </a>
+                <div class="info-card">
+                    <span class="ic"><ion-icon name="call-outline"></ion-icon></span>
+                    <span><small>Call us</small><a class="num" href="tel:+27829753060">(082) 975-3060</a><a class="num" href="tel:+27682038670">(068) 203-8670</a></span>
+                </div>
+                <div class="info-card hours">
+                    <span class="ic"><ion-icon name="time-outline"></ion-icon></span>
+                    <div class="hrs">
+                        <small>Opening hours</small>
+                        <ul>
+                            <li><ion-icon name="sunny-outline"></ion-icon><span>Monday to Friday</span><b>9:00 AM to 5:00 PM</b></li>
+                            <li><ion-icon name="partly-sunny-outline"></ion-icon><span>Saturday</span><b>10:00 AM to 3:00 PM</b></li>
+                            <li class="closed"><ion-icon name="close-circle-outline"></ion-icon><span>Sunday</span><b>Closed</b></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot-in">
+            <a class="brand" href="index.html" aria-label="Comtrack Funeral Cover, go to the home page">
+                <svg class="logo-mark" viewBox="0 0 64 64" width="46" height="46" aria-hidden="true"><use href="#logo-sym"/></svg>
+                <span class="logo"><b>Comtrack</b><small>Funeral Cover</small></span>
+            </a>
+            <p>© 2026 Comtrack Funeral Cover.</p>
+        </div>
+    </footer>
+
+    <aside class="dock" aria-label="Quick contact">
+        <a id="dk-mail" aria-label="Email us" title="Email us">
+            <ion-icon name="mail-outline"></ion-icon>
+        </a>
+        <a id="dk-wa" class="wa" aria-label="Chat on WhatsApp" title="Chat on WhatsApp" target="_blank" rel="noopener">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+        <a class="tel" aria-label="Call us" title="Call us">
+            <ion-icon name="call-outline"></ion-icon>
+        </a>
+    </aside>
+
+    <button class="totop" id="totop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+        </svg>
+    </button>
+
+    <div class="toast" id="toast" role="status"></div>
+
+    <dialog id="kdlg" class="big" aria-labelledby="kt">
+        <form id="kform" novalidate onsubmit="submitKyc(event)">
+            <h2 id="kt">Your personal information</h2>
+            <p class="muted" id="ksub"></p>
+            <div id="kfields"></div>
+            <label class="consent"><input type="checkbox" id="kconsent"><span>I confirm that the information above is correct. I consent to Comtrack Funeral Cover using my personal information to respond to my enquiries and orders, in line with the Protection of Personal Information Act (POPIA). I understand my details are saved on this device so I do not have to enter them again.</span></label>
+            <div class="msg" id="kmsg" role="alert"></div>
+            <div class="row">
+                <button type="submit" id="kgo">Submit my information</button>
+                <button type="button" class="ghost" onclick="closeKyc()">Cancel</button>
+            </div>
+        </form>
+    </dialog>
+
+    <dialog id="sdlg" class="ok" aria-labelledby="st">
+        <div class="tick"><svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+        <h2 id="st">Your information has been captured</h2>
+        <p id="sm"></p>
+        <p class="muted" id="sref"></p>
+        <div class="row">
+            <button type="button" id="sok" onclick="closeDone()">OK</button>
+            <button type="button" class="ghost" id="smail" hidden>Email it to us</button>
+            <button type="button" class="ghost" id="sdl">Download my record</button>
+        </div>
+    </dialog>
+
+    <dialog id="gdlg" class="big" aria-labelledby="gt"><div id="gbody"></div></dialog>
+
+    <dialog id="pdlg">
+        <h2 id="pt"></h2>
+        <div class="price" id="pp"></div>
+        <p id="pm" class="muted"></p>
+        <ul id="pf"></ul>
+        <div class="row">
+            <button id="pa">Add to order</button>
+            <button class="ghost" onclick="pdlg.close()">Close</button>
+        </div>
+    </dialog>
+
+    <dialog id="dlg">
+        <h2 id="dt">Log in</h2>
+        <div id="nameWrap" hidden>
+            <label for="an">Full name</label>
+            <input id="an" autocomplete="name">
+        </div>
+        <label for="ae">Email</label>
+        <input id="ae" type="email" autocomplete="email">
+        <label for="ap">Password</label>
+        <input id="ap" type="password" autocomplete="current-password">
+        <div class="msg" id="am" role="alert"></div>
+        <div class="row">
+            <button onclick="submitAuth()" id="ab">Log in</button>
+            <button class="ghost" onclick="dlg.close()">Cancel</button>
+        </div>
+        <p class="fine"><a href="#" id="sw" onclick="toggleMode();return false">Need an account? Register</a></p>
+    </dialog>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
